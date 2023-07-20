@@ -12,11 +12,11 @@ __Step 1__: Define the database purpose.
 
 __Step 2__: Identify the database tables including 
 
-* Tables attributes 
+  * Tables attributes 
 
-* Attributes data types 
+  * Attributes data types 
 
-* Primary key for each table  
+  * Primary key for each table  
 
 __Step 3__: Create relationships between tables
 
@@ -36,11 +36,11 @@ __Step 3__: Create relationships between tables
 
 * Task 1: Identify the database purpose 
 
-The “chinook sample” database represents a fictitious digital media company that includes information about artists, albums, media tracks, invoices and customers. 
+  The “chinook sample” database represents a fictitious digital media company that includes information about artists, albums, media tracks, invoices and customers. 
 
 * Task 2: Identify the database tables 
 
-The chinook sample database has considered adequate normalization level and created 11 tables to store and relate data to avoid data redundancy. However, this exercise will only focus on 6 main tables, including some relevant attributes for each.  
+  The chinook sample database has considered adequate normalization level and created 11 tables to store and relate data to avoid data redundancy. However, this exercise will only focus on 6 main tables, including some relevant attributes for each.  
 
 |Table name | Description  | Diagram |  
 |----------|-----|-----------------|
@@ -55,21 +55,21 @@ The chinook sample database has considered adequate normalization level and crea
 
 * Task 3: Identify relationships between tables 
 
- - The chinook sample database defines the following relationships between the 6 stated tables:  
+   - The chinook sample database defines the following relationships between the 6 stated tables:  
 
- - Each employee will support one or many customers.  
+   - Each employee will support one or many customers.  
 
- - Each customer may have multiple invoices  
+   - Each customer may have multiple invoices  
 
- - Each track belongs to one album. 
+   - Each track belongs to one album. 
 
- - Each invoice relates to one track. 
+   - Each invoice relates to one track. 
 
- - Each track belongs to one album  
+   - Each track belongs to one album  
 
- - Each album may contain multiple tracks 
+   - Each album may contain multiple tracks 
 
- - Each artist has one or multiple albums 
+   - Each artist has one or multiple albums 
 
 
 * Task 4: Create entity relationship diagram 
